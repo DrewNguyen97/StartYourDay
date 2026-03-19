@@ -1,0 +1,11 @@
+//
+//  DEV.xcconfig
+//  StartYourDay
+//
+//  Created by Dung Tan Nguyen on 19/3/26.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+ENVIRONMENT = DEV
