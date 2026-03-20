@@ -23,4 +23,10 @@ final class AppContainer {
         self.store = store
         self.api = api
     }
+    
+    @MainActor
+    func makeHomeView() -> HomeView {
+        let homeVM = HomeViewModel(container: self)
+        return HomeView(viewModel: homeVM)
+    }
 }

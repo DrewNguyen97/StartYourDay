@@ -9,4 +9,8 @@ import Foundation
 
 enum APIConstants {
     
+    enum WeatherAPI: String {
+        case searchPath = "/premium/v1/search.ashx"
+        case weatherPath = "/premium/v1/weather.ashx"
+    }
 }

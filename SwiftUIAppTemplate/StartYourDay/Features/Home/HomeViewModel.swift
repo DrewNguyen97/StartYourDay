@@ -23,6 +23,7 @@ final class HomeViewModel: ObservableObject {
         counter += 1
         container.log.info("Counter = \(counter)")
         container.store.set(String(counter), forKey: Keys.counter)
+        
     }
     
     func saveNote() {

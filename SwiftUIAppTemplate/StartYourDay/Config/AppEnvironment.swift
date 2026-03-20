@@ -14,9 +14,9 @@ enum AppEnvironment: String {
     var baseURL: String {
         switch self {
         case .dev:
-            return ""
+            return "https://api.worldweatheronline.com"
         case .prod:
-            return ""
+            return "https://api.worldweatheronline.com"
         }
     }
     

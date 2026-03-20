@@ -15,7 +15,7 @@ struct HomeView: View {
             localStorageSection
             navigationSection
         }
-        .navigationTitle("SwiftUI Template")
+        .navigationTitle("Home Screen")
     }
 
     private var templateStatusSection: some View {
